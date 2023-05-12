@@ -1,8 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6F673AD-66A3-4E04-AA4F-628423C384BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChessConsole", "ChessConsole", "{74647AEE-12E3-4C69-8E14-5021D8AD6882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess", "Chess\Chess.csproj", "{441CDF4E-804B-45E6-9CB7-E8288B3A285F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74647AEE-12E3-4C69-8E14-5021D8AD6882} = {B6F673AD-66A3-4E04-AA4F-628423C384BC}
+		{441CDF4E-804B-45E6-9CB7-E8288B3A285F} = {74647AEE-12E3-4C69-8E14-5021D8AD6882}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441CDF4E-804B-45E6-9CB7-E8288B3A285F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441CDF4E-804B-45E6-9CB7-E8288B3A285F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441CDF4E-804B-45E6-9CB7-E8288B3A285F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441CDF4E-804B-45E6-9CB7-E8288B3A285F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
