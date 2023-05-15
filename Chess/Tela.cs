@@ -11,7 +11,7 @@ namespace Chess
             {
                 for (int j = 0; j < tab.Colunas; j++)
                 {
-                    if (tab.Peca(i,j)==null)
+                    if (tab.Peca(i,j) == null)
                     {
                         Console.Write("- ");
                     }
@@ -19,8 +19,8 @@ namespace Chess
                     {
                         Console.Write(tab.Peca(i,j) + " ");
                     }
-                    Console.WriteLine();
                 }
+                Console.WriteLine();
             }
             
         }
