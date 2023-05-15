@@ -1,4 +1,5 @@
 ﻿using System;
+using static Tabuleiro.Tabuleiro;
 
 namespace Chess
 {
@@ -6,7 +7,11 @@ namespace Chess
     {
         static void Main(string[] args)
         {
+            Tabuleiro.Tabuleiro tab = new Tabuleiro.Tabuleiro(8, 8);
             
+            Tela.imprimirTabuleiro(tab);
+
+            Console.ReadLine();
         }
     }
 }

@@ -11,7 +11,12 @@ namespace Tabuleiro
             Linha = linha;
             Coluna = coluna;
         }
-        
-        
+
+        public override string ToString()
+        {
+            return Linha
+                   + ", "
+                   + Coluna;
+        }
     }
 }
